@@ -17,9 +17,7 @@
 <body>
     <div id="app">
         @include('inc.navbar')
-        <div class="container">
-            @yield('content')
-        </div>
+        @yield('content')
     </div>
 
     <!-- Scripts -->
@@ -29,4 +27,5 @@
         CKEDITOR.replace( 'article-ckeditor' );
     </script>
 </body>
+    @yield('style')
 </html>
